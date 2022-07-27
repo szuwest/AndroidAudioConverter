@@ -2,6 +2,9 @@
 
 # AndroidAudioConverter
 
+更新gradle和重新编译，发布到jitpack.io
+
+
 > Convert audio files inside your Android app easily. This is a wrapper of [FFmpeg-Android-Java](https://github.com/WritingMinds/ffmpeg-android-java) lib.
 
 Supported formats:
@@ -78,7 +81,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.adrielcafe:AndroidAudioConverter:0.0.8'
+  implementation 'com.github.szuwest:AndroidAudioConverter:0.0.9-2'
 }
 ```
 

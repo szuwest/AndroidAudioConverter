@@ -1,12 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.szuwest'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 29
+    buildToolsVersion "24.0.3"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
@@ -20,5 +23,5 @@ android {
 }
 
 dependencies {
-    compile 'com.github.WritingMinds:ffmpeg-android-java:v0.3.2'
+    implementation 'com.github.WritingMinds:ffmpeg-android-java:v0.3.2'
 }
